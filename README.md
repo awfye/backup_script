@@ -20,8 +20,11 @@ Example : here, only "_bu_documents_", "_bu_pictures_" and "_bu_videos_" (data n
 ![menu.png](readme_screenshots/menu.png)
 
 - **Backup (simple copy)** : copies all the directories starting with "_bu__" to the path provided
-- **Backup, archive, compress** : archives and compress (tar.gz) all the directories starting with "_bu__" to the path provided
+- **Backup, archive, compress** : archives and compresses (tar.gz) all the directories starting with "_bu__" to the path provided
 - **Extract archives** : extracts all the compressed archives (tar.gz) in the current directory.
 - **Exit** : exits the script
 
 **Backup, archive, compress** will also copy the backup script to the path provided to easily extract the archives when needed.
+
+---
+Script written to help with a homelab project : I plan to backup once a month my pictures and other sensible data to an external drive.
