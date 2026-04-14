@@ -1,3 +1,6 @@
+#!/bin/bash
+
+
 RED='\033[0;31m'
 GREEN='\033[0;32m'
 NC='\033[0m'
@@ -51,7 +54,7 @@ extract_backup() {
 
 PS3='Please select an option: '
 
-select choice in "Backup (simple copy)" "Backup, archive, compress" "Extract archive" "Exit"; do
+select choice in "Backup (simple copy)" "Backup, archive, compress" "Extract archives" "Exit"; do
     case $REPLY in
         1)
             simple_backup
